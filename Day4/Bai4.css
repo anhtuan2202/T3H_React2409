@@ -1,0 +1,28 @@
+.container{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(24, 201, 142);
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+.form_row{
+    padding: 5px;
+    display: flex;
+}
+
+.form__label{
+    min-width: 80px;
+}
+
+.form__input{
+    flex: 1;
+    
+}
+
+button{
+    width: 400px;
+    margin: 10px 50px;
+    background-color: rgb(167, 247, 76);
+    border-radius: 5px;
+}

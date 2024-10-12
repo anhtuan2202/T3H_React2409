@@ -1,0 +1,35 @@
+.container{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.content{
+    display: flex;
+    height: 90vh;
+    box-sizing: border-box;
+    
+}
+
+.content_sidebar{
+    background-color: blanchedalmond;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.content_main{
+    background-color: aqua;
+    flex: 3;
+    padding-left: 20px;
+}
